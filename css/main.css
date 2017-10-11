@@ -1,91 +1,94 @@
 body {
-    padding: 2% 10% 0% 10%;
+    padding: 2% 10% 0 10%;
     color: #2d3c49 !important;
-    font-family: 'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif !important;
+    font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif !important;
 }
 
-header{
-  margin: 0% 0% 10% 0%
+.header {
+  margin: 0 0 2% 0;
 }
 
-.header__logo{
-  float: left;
-}
-
-.logoImg{
+.logoImg {
   width: 100px;
   width: 100px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  margin: 0px 0px 0px 0px;
 }
 
-.header__title{
+.header__innerText {
+  text-align: right;
+}
+
+.header__title {
   color: #02b3e4;
 }
 
-.header__innerText{
-  float: right;
-}
-
-.header__description{
+.header__description {
   margin-top: 40px;
 }
 
 .customHr {
-    clear: both;
     color: transparent;
     font-size: 1px;
     line-height: 3px;
     background-color: #7d97ad;
-    margin: 0px 0px 50px 0px;
+    margin: 0 0 3% 0;
 }
 
-.top-section{
+.top-section, .bottom-section  {
   text-align: center;
-  padding: 0% 0% 5% 0%;
+  padding: 0 0 5% 0;
 }
 
-img{
-  -webkit-box-shadow: 8px 8px 10px 0px rgba(125,151,173,0.9);
-  -moz-box-shadow: 8px 8px 10px 0px rgba(125,151,173,0.9);
-  box-shadow: 8px 8px 10px 0px rgba(125,151,173,0.9);
-  margin: 0px 0px 10px 0px;
+.featured-work-title {
+  margin: 0 0 2% 0;
 }
 
-.main-img{
+img {
+  -webkit-box-shadow: 8px 8px 10px 0 rgba(125,151,173,0.9);
+  -moz-box-shadow: 8px 8px 10px 0 rgba(125,151,173,0.9);
+  box-shadow: 8px 8px 10px 0 rgba(125,151,173,0.9);
+  margin: 0 0 10px 0;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-img {
   width: 560px;
   height: 420px;
 }
 
-.featured-work-img{
-  width: 255px;
+.featured-work-img {
+  width: 265px;
   height: 170px;
 }
 
-.col{
-  text-align: center;
-}
-
-footer{
+.footer {
   background-color: #7d97ad;
-  width: 100%;
-  margin: 50px 0px 0px 0px;
+  margin: 50px 0 0 0;
 }
 
-#footer-text{
-  margin-bottom: 0px;
+.footer-text {
+  margin-bottom: 0;
+  width: 100%;
   text-align: center;
 }
 
 @media screen and (max-width: 760px){
   body {
-      padding: 0% 0% 0% 0%;
+      padding: 2% 0 0 0;
   }
 
-  .main-img{
-    width: 412px;
-    height: 300px;
+  .main-img {
+    width: 375px;
+    height: 260px;
+  }
+
+  .featured-work-img {
+    width: 255px;
+    height: 170px;
   }
 }

@@ -5,75 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Meng's Portfolio Site</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.slim.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
   </head>
+
   <body>
-
-    <header>
-      <div class="header__logo">
-        <img class="logoImg" src="img/UdacityLogo.png" alt="Udacity Logo">
+    <div class="container">
+      <div class="header row">
+        <div class="header__logo col">
+          <img class="logoImg" src="img/UdacityLogo.png" alt="Udacity Logo">
+        </div>
+        <div class="header__innerText col">
+          <h1 class="header__title">
+            Meng Luo
+          </h1>
+          <p class="header__description">
+            FRONT-END NINJA
+          </p>
+        </div>
       </div>
-      <div class="header__innerText">
-        <h1 class="header__title">
-          Meng Luo
-        </h1>
-        <p class="header__description">
-          FRONT-END NINJA
-        </p>
+
+      <div class="row">
+        <div class="customHr col-sm-12 col-md-12 col-lg-12">
+          .
+        </div>
       </div>
-    </header>
 
-    <div class="customHr">.</div>
-
-    <main>
-      <div class="content">
-        <section class="top-section">
+      <div class="top-section row">
+        <div class="main-content col">
           <img class="main-img" src="img/img1.jpg" alt="Main Image">
           <h3>
             San Francisco
           </h3>
-        </section>
+        </div>
+      </div>
 
-        <section class="bottom-section">
-          <h2 class="featured-work-title">
+      <div class="featured-work-title row">
+        <div class="col">
+          <h2>
             Featured Work
           </h2>
-          <div class="featured-work">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <img class="featured-work-img" src="img/img2.jpg" alt="Yellowstone">
-                  <h3>
-                    Yellowstone
-                  </h3>
-                </div>
-                <div class="col">
-                  <img class="featured-work-img" src="img/img3.jpg" alt="Puerto Rico">
-                  <h3>
-                    Puerto Rico
-                  </h3>
-                </div>
-                <div class="col">
-                  <img class="featured-work-img" src="img/img4.jpg" alt="Acadia">
-                  <h3>
-                    Acadia
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
-    </main>
 
-    <footer>
-      <p id='footer-text'>
-        Copyright &copy; 2017, Meng Luo (mluo.bupt [at] gmail.com). All rights reserved.
-      </p>
-    </footer>
+      <div class="bottom-section row">
+              <div class="col">
+                <img class="featured-work-img" src="img/img2.jpg" alt="Yellowstone">
+                <h3>
+                  Yellowstone
+                </h3>
+              </div>
+              <div class="col">
+                <img class="featured-work-img" src="img/img3.jpg" alt="Puerto Rico">
+                <h3>
+                  Puerto Rico
+                </h3>
+              </div>
+              <div class="col">
+                <img class="featured-work-img" src="img/img4.jpg" alt="Acadia">
+                <h3>
+                  Acadia
+                </h3>
+              </div>
+        </div>
 
-    <script src="js/jquery-3.2.1.slim.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        <div class="footer row">
+          <p class='footer-text col-sm-12 col-md-12 col-lg-12'>
+            Copyright &copy; 2017, Meng Luo (mluo.bupt [at] gmail.com). All rights reserved.
+          </p>
+        </div>
+    </div>
   </body>
 </html>
