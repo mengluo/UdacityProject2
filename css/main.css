@@ -29,11 +29,11 @@ header {
 }
 
 .customHr {
-    color: transparent;
-    font-size: 1px;
-    line-height: 3px;
-    background-color: #7d97ad;
-    margin: 0 0 3% 0;
+  color: transparent;
+  font-size: 1px;
+  line-height: 3px;
+  background-color: #7d97ad;
+  margin: 0 0 3% 0;
 }
 
 .top-section, .bottom-section  {
